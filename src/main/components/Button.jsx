@@ -4,5 +4,7 @@ import './Button.css'
 
 export default (props) =>
 {
-    <button className='button'>0</button>
+    return(
+        <button className='button'>{props.label}</button>
+    );
 }
